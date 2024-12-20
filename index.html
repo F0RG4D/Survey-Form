@@ -9,23 +9,23 @@
 <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">
-        A survey form created to collect data and opinions for research and analysis, ensuring accurate and insightful results
+        A Survey Form
     </p>
     <form id="survey-form">
-        <label for="name" id="name-label">Name</label>
-        <input type="text" id="name" required>
+        <label for="name" id="name-label" >Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
         
         <label for="email" id="email-label">Email</label>
-        <input type="email" id="email" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
 
         <label for="number" id="number-label">Age(optional)</label>
-        <input type="number" id="number" min="16" max="99">
+        <input type="number" id="number" min="16" max="99" placeholder="Enter your age">
 
         <label for="dropdown">Select your department</label>
         <select id="dropdown">
             <option value="select">Select your option</option>
             <option value="Biotechnology">Biotechnology</option>
-            <option value="BioMedical Equipment">BioMedical Equipment</option>
+            <option value="Biomedical Equipment">BioMedical Equipment</option>
             <option value="Nutrition">Nutrition</option>
             <option value="Laboratory">Laboratory</option>
             <option value="Radiology">Radiology</option>
@@ -58,7 +58,7 @@
         <p>Any comments or suggestions?</p>
         <textarea name="comment" id="comment" placeholder="Enter your comment here....."></textarea>
 
-        <button type="submit">Submit</button>
+        <button type="submit" id="submit">Submit</button>
 
     </form>
 
