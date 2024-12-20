@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+        A survey form created to collect data and opinions for research and analysis, ensuring accurate and insightful results
+    </p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" required>
+        
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="number" id="number-label">Age(optional)</label>
+        <input type="number" id="number" min="16" max="99">
+
+        <label for="dropdown">Select your department</label>
+        <select id="dropdown">
+            <option value="select">Select your option</option>
+            <option value="Biotechnology">Biotechnology</option>
+            <option value="BioMedical Equipment">BioMedical Equipment</option>
+            <option value="Nutrition">Nutrition</option>
+            <option value="Laboratory">Laboratory</option>
+            <option value="Radiology">Radiology</option>
+        </select>
+
+        <p>Which trimester are you in?</p>
+        <label>
+            <input type="radio" name="term">
+            1st term
+        </label>
+        <label>
+            <input type="radio" name="term">
+            2nd term
+        </label>
+        <label>
+            <input type="radio" name="term">
+            summer
+        </label>
+
+        <p></p>
+    </form>
+
+</body>
+</html>
