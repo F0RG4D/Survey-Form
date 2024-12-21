@@ -35,10 +35,6 @@ select {
     border-radius: 3px;
 }
 
-select{
-    color: white;
-}
-
 textarea {
     width: 100%;
     height: 100px;
